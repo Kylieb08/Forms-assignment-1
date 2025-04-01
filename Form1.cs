@@ -20,6 +20,19 @@ namespace Forms_assignment_1
         private void btnBad_Click(object sender, EventArgs e)
         {
             imgBad.Visible = true;
+            imgGood.Visible = false;
+        }
+
+        private void btnGood_Click(object sender, EventArgs e)
+        {
+            imgGood.Visible = true;
+            imgBad.Visible = false;
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            imgGood.Visible = false;
+            imgBad.Visible = false;
         }
     }
 }
