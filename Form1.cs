@@ -16,5 +16,10 @@ namespace Forms_assignment_1
         {
             InitializeComponent();
         }
+
+        private void btnBad_Click(object sender, EventArgs e)
+        {
+            imgBad.Visible = true;
+        }
     }
 }
